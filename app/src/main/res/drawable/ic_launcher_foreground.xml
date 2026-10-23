@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Swimmer over waves on a 108dp adaptive-icon canvas (safe zone = central 66dp). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,38m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <!-- body and arm -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,52 L52,42 C54,41 56,41 57.5,42.5 L63,48 L56,52 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,50 L50,44 L48,40 L33,46 C31.5,46.7 31,48.5 31.8,50 C32.6,51.3 34.4,51.8 36,50 Z" />
+    <!-- waves -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M28,62 C32,58 36,58 40,62 C44,66 48,66 52,62 C56,58 60,58 64,62 C68,66 72,66 76,62" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#9FE7FF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M28,72 C32,68 36,68 40,72 C44,76 48,76 52,72 C56,68 60,68 64,72 C68,76 72,76 76,72" />
+</vector>
